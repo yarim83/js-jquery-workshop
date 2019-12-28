@@ -23,9 +23,124 @@
 
 
 
+<main class="container">
+    <button class="btn waves-effect waves-light" id="openAddFormBtn">Add book
+        <i class="material-icons right">add</i>
+    </button>
+    <div class="card" id="cardForm">
+        <a class="btn-floating halfway-fab waves-effect waves-light red" id="closeAddFormBtn">
+            <i class="material-icons">close</i>
+        </a>
+        <div class="card-content">
+            <form id="addBookForm">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="isbn" type="text" class="validate" name="isbn">
+                        <label for="isbn">Isbn</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="title" type="text" class="validate" name="title">
+                        <label for="title">Title</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="author" type="text" class="validate" name="author">
+                        <label for="author">Author</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="publisher" type="text" class="validate" name="publisher">
+                        <label for="publisher">Publisher</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="type" type="text" class="validate" name="type">
+                        <label for="type">Type</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="card-action">
+            <button class="btn waves-effect waves-light" id="submitAddBookForm" type="submit">Submit
+                <i class="material-icons right">send</i>
+            </button>
+        </div>
+    </div>
+
+    <ul class="collapsible">
+        <li>
+            <div class="collapsible-header grey disabled">
+                <div>Title</div>
+            </div>
+        </li>
+        <li data-id="" style="display: none">
+            <div class="collapsible-header">
+                <div></div>
+                <div><a class="waves-effect waves-light btn btn-delete" data-id="">
+                    <i class="material-icons">delete</i>
+                </a>
+                </div>
+            </div>
+            <div class="collapsible-body">
+                <div class="row">
+                    <div class="col s6">
+                        <p>isbn: </p>
+                        <p>title: </p>
+                        <p>author: </p>
+                        <p>publisher: </p>
+                        <p>type: </p>
+                    </div>
+                    <div class="col s6">
+                        <div class="card" id="cardFormUpdate">
+                            <div class="card-content">
+                                <form>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input type="text" class="validate" name="isbn" placeholder="">
+                                            <label>Isbn</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <input type="text" class="validate" name="title" placeholder="">
+                                            <label>Title</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <input type="text" class="validate" name="author" placeholder="">
+                                            <label>Author</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <input type="text" class="validate" name="publisher" placeholder="">
+                                            <label>Publisher</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <input type="text" class="validate" name="type" placeholder="">
+                                            <label>Type</label>
+                                        </div>
+                                        <input type="hidden" name="id">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="card-action">
+                                <button class="btn waves-effect waves-light" type="submit" data-id="">
+                                    Update
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</main>
+
+<footer class="page-footer blue">
+    <div class="footer-copyright">
+        <div class="container center">
+            © 2019 Copyright Text
+        </div>
+    </div>
+</footer>
+
 <!--JavaScript at end of body for optimized loading-->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
-<script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="js/function.js"></script>
 </body>
 </html>
