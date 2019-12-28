@@ -3,23 +3,45 @@
     margin-top:10px;
     padding:5px;
 }
-
-/*DO zadania 2*/
 body {
-  padding:20px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-div {
-  padding:10px;
-  margin:10px auto;
-  border:1px solid #ccc;
-  background-color:#ddd;
+main {
+  flex: 1 0 auto;
 }
 
-span {
-  color:#fff;
-  padding:5px 10px;
-  background-color: #000;
-  display:block;
-  width:80px;
+#openAddFormBtn {
+  margin: 20px;
+}
+
+.collapsible-header i {
+  margin: 0;
+}
+
+.collapsible-header :first-child {
+  flex-grow: 1;
+}
+
+.btn-floating.halfway-fab {
+  bottom: 333px;
+}
+
+#cardForm {
+  display: none;
+}
+
+#cardFormUpdate .card-content {
+  padding: 15px 24px 0;
+}
+
+.collapsible-body .row {
+  margin-bottom: 0;
+}
+
+#cardFormUpdate .col {
+  margin-top: 0;
 }
