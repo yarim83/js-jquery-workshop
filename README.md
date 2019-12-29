@@ -1,6 +1,6 @@
 ## O Projekcie
 
-![Screenshot](https://github.com/yarim83/jeeshool/blob/master/PrtScr.png)
+![Screenshot](https://github.com/yarim83/js-jquery-workshop/blob/master/main/webapp/screens/js-jquery-workshop.png)
 
 Projekt prostej witryny klienckiej REST do zarządzania książkami przy pomocy żądań Ajax. System komunikuje się z serwerem.
 
