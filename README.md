@@ -7,7 +7,8 @@ Projekt prostej witryny klienckiej REST do zarządzania książkami przy pomocy 
 
 ### Przygotowanie Serwera API
 Należy pobrać paczkę:
-* [Rest-API-Serwer](https://github.com/yarim83/js-jquery-workshop/tree/master/main/webapp) 
+
+* [Rest-API-Serwer](https://github.com/yarim83/js-jquery-workshop/tree/master/main/Rest-API-Serwer) 
 
 Następnie będąc w folderze projektu wykonać polecenie:
 ````
